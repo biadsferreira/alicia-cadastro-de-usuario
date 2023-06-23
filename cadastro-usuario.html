@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um novo conceito para doar e adotar cães e gatos">
+  <meta name="keywords" content="adotar, doar, cachorros, gatos, cães, ong, animal, doméstico">
+  <meta name="copyright" content="© Lar pro Bicho">
+  <meta name="author" content="Alicia Ribeiro">
+  <title>Lar pro Bicho</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="btn-tablet" onclick="clickMenu()">
+    <img src="imgs/hamburger.svg" alt="Ícone menu hamburger" id="hamburger">
+    <div class="menu-tablet-interno" id="menuMobile">
+      <a href="../sabrina-cadastro-de-animais/cadastro-de-animais.html">
+        <img src="imgs/icone_adicionar.svg" alt="Icone adição">
+        <p><font color="#000000">Doe um bichinho</font></p>
+      </a>
+      <a href="#">
+        <img src="imgs/icone_mao-coracao.svg" alt="Icone mão com coração">
+        <p><font color="#000000">Minhas doações</font></p>
+      </a>
+      <a href="../alicia-cadastro-de-usuario/cadastro-usuario.html">
+        <img src="imgs/icone_lista-check.svg" alt="Prancheta com simbolo de check">
+        <p><font color="#000000">Cadastre-se</font></p>
+      </a>
+      <a href="#">
+        <img src="imgs/icone_chat.svg" alt="Icone de chat">
+        <p><font color="#000000">Chat</font></p>
+      </a>
+    </div>
+  </nav>
+
+  <center>
+    <div id="logo-e-titulo-cadastro">
+      <a href="../danilo-pagina-inicial/index.html">
+        <img id="logo-cadastro" src="imgs/logo-editada.jpeg">
+      </a>
+      <h1 id="titulo-logo">Um novo conceito para <font color="#ff9f32">doar e adotar</font> cães e gatos</h1>
+    </div>
+  </center>
+
+  <center>
+    <div id="fundo-titulo-cadastro">
+      <h1 id="titulo-cadastro">
+        <font color="#FFFFFF">Cadastre-se para encontrar ou ajudar seu novo amigo</font>
+      </h1>
+    </div>
+  </center>
+
+  <br></br>
+
+  <div id="dados-cadastro">
+    <div id="grupo-campos-texto-cadastro">
+      <input type="text" id="campos-de-texto-cadastro" placeholder="Nome" style="font-size: 16px;">
+      <input type="text" id="campos-de-texto-cadastro" placeholder="Whatsapp" style="font-size: 16px;">
+      <input type="text" id="campos-de-texto-cadastro" placeholder="Telefone" style="font-size: 16px;">
+      <input type="text" id="campos-de-texto-cadastro" placeholder="E-mail" style="font-size: 16px;">
+      <input type="text" id="campos-de-texto-cadastro" placeholder="Senha" style="font-size: 16px;">
+    </div>
+    <div id="grupo-radio-perfil-cadastro">
+      <h2 id="titulo-perfil">Tipo de perfil</h2>
+      <form>
+        <input type="radio" id="particular" name="opcao_perfil">
+        <label for="particular" style="font-size: 20px;">Particular</label><br>
+        <div class="radio-cadastro"></div>
+        <input type="radio" id="ong" name="opcao_perfil">
+        <label for="ong" style="font-size: 20px;">O.N.G.</label>
+        <div class="radio-cadastro"></div>
+        <input type="radio" id="publica" name="opcao_perfil">
+        <label for="publica" style="font-size: 20px;">Empresa publica</label>
+        <div class="radio-cadastro"></div>
+        <input type="radio" id="privada" name="opcao_perfil">
+        <label for="privada" style="font-size: 20px;">Empresa privada</label>
+      </form>
+      <div id="checkbox-perfil-cadastro">
+        <input type="checkbox" id="maior-idade">
+        <label for="maior-idade" style="font-size: 20px;">Confirmo ter<br />mais de 18 anos</label>
+      </div>
+    </div>
+  </div>
+
+  <center>
+    <a id="link-botao-cadastro" href="../danilo-pagina-inicial/index.html">
+      <div id="fundo-botao-cadastrar">
+        <h1 id="texto-botao-cadastrar">
+          <font color="#FFFFFF">Cadastrar</font>
+        </h1>
+      </div>
+    </a>
+  </center>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
